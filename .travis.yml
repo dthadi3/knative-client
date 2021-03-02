@@ -2,3 +2,5 @@ arch:
   - amd64
   - ppc64le
 language: shell
+script:
+  - make install
